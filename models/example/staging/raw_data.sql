@@ -3,12 +3,8 @@ with source as (
 ),
 
 stage_student as (
-  select
-  first_name,
-  last_name,
-  class,
-  section
-  from source
+select first_name,last_name,arsd."Class",arsd."Section" 
+from source
 )
 select
   *
