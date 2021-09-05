@@ -10,13 +10,3 @@ select
   first_name,
   last_name,
 from source
-
-
-
-
-
-
-
-select first_name,last_name 
-from source
-
