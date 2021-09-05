@@ -1,0 +1,12 @@
+tutorial:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: warly123
+      dbname: ryan
+      schema: public
+  target: dev
