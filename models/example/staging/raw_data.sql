@@ -6,6 +6,3 @@ stage_student as (
 select first_name,last_name 
 from source
 )
-select
-  *
-from stage_student
