@@ -6,4 +6,4 @@
 select
   first_name,
   last_name
-from students_data
+from _airbyte_raw_students_data
